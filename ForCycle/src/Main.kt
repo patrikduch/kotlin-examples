@@ -4,7 +4,15 @@ fun main() {
 
     for (i in arr.indices ) {
 
-        print(arr[i])
+        println(arr[i])
 
+    }
+
+
+    println()
+
+
+    for (i in 0.. arr.size-1) {
+        println(arr[i])
     }
 }
